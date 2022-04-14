@@ -1,0 +1,148 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    font-family: helvetica;
+}
+
+body{
+    background-color: #eaeaea50;
+}
+
+.container{
+    width: 1200px;
+    margin:100px auto;   
+    padding: 20px;
+    font-size: 20px;
+    /* border: 1px solid; */
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0 0 10px grey;
+    display: flex;
+}
+
+.container p{
+    text-align: justify;
+}
+
+.submission{
+    /* border: 1px solid; */
+    display: flex;
+    align-items: center;
+}
+
+.contact{
+    /* border: 1px solid; */
+    border-radius: 10px;
+    width: 100px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-weight: bold;
+    background-color: rgb(29, 19, 19);
+}
+
+.contact a{
+    color: white;
+}
+
+.contact:hover{
+    cursor: pointer;
+    background-color: orangered;
+    transition: .3s;
+    /* border: none; */
+}
+
+.card{
+    /* border: 1px solid; */
+    width: 650px;
+    margin: 50px auto;
+}
+
+.download{
+    /* border: 1px solid; */
+    margin-left: 15px;
+}
+
+#D-icon{
+    width:15px;
+    margin-left: 5px;
+}
+
+.hero{
+    margin: 30px auto;
+    width: 400px;
+    box-shadow: 0 0 8px grey;
+    border-radius: 5px;
+    /* border: 1px solid; */
+}
+
+.hero img{
+    width:100%;
+    height: 80%;
+    border-radius: 5px;
+}
+
+.name{
+    margin-top: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.icon-sm{
+    margin-top: 30px;
+    /* border: 1px solid; */
+    /* text-align: center; */
+}
+
+/* navbar */
+
+nav {
+    background-color: rgb(238, 238, 238);
+    display: flex;
+    height: 7vh;
+}
+
+nav .nav-left{
+    flex: 50%;
+    padding-left: 100px;
+    display: flex;
+    align-items: center;
+    /* margin-left: 10px; */
+    /* border: 1px solid; */
+}
+
+nav .nav-left li {
+    display: inline;
+    /* border: 1px solid; */
+    margin-left: 20px;
+    font-size: 25px;
+}
+
+nav .nav-left ul li a {
+    color: black;
+    padding: 12px;
+}
+
+.nav-right {
+    display: flex;
+    flex: 50%;
+    justify-content: flex-end;
+    align-items: center; 
+    padding-right: 100px;
+    font-size: 25px;
+}
+
+.nav-right a {
+    background-color: orangered;
+    color: white;
+    padding: 8px 25px;
+    border-radius: 5px;
+}
+
+.nav-right a:hover{
+    background-color: black;
+    transition: .5s;
+}
+
+/* end navbar */

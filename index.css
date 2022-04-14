@@ -116,7 +116,7 @@ nav .nav-left li {
     display: inline;
     /* border: 1px solid; */
     margin-left: 20px;
-    font-size: 25px;
+    font-size: 15px;
 }
 
 nav .nav-left ul li a {
@@ -138,6 +138,7 @@ nav .nav-left ul li a {
     color: white;
     padding: 8px 25px;
     border-radius: 5px;
+    font-size: 15px;
 }
 
 .nav-right a:hover{
